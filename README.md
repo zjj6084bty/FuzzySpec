@@ -27,5 +27,5 @@ sh caculate_gen_quality.sh #评估生成质量
 ```
 
 ## Acknowledgements
-The codebase is from [SAM-decoding](https://github.com/hyx1999/SAM-Decoding/tree/main) and influenced by remarkable projects from the LLM community, including [FastChat](https://github.com/lm-sys/FastChat), [vllm](https://github.com/vllm-project/vllm) and many others.
+The codebase is from [SAM-decoding](https://github.com/hyx1999/SAM-Decoding/tree/main) and [REST](https://github.com/FasterDecoding/REST/tree/main) and influenced by remarkable projects from the LLM community, including [FastChat](https://github.com/lm-sys/FastChat), [vllm](https://github.com/vllm-project/vllm) and many others.
 
