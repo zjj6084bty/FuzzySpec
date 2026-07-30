@@ -6,7 +6,10 @@
 
  FuzzySpec breaks the traditional paradigm of decoupled retrieval and verification, and achieves synergistic optimization of speculative decoding inference performance by integrating fuzzy retrieval and elastic verification strategies. FuzzySpec improves the recall of long matches by introducing an adaptive fuzzy retrieval mechanism with edit distance constraints, and constructs a dynamic elastic verification mechanism based on retrieval confidence and target model prediction entropy, ensuring generation quality while improving inference speed. 
 
+## Dataset
+The test data for FuzzySpec is available in the Spec-Bench repository. To proceed, you should place the relevant data files ```Spec-Bench/data``` from the Spec-Bench repository into the evaluation directory of our project ```llm_judge/data```.
 
+For other datasets, such as HumanEval, we also converted them to the same format as spec_bench.
 
 ## Prepare retrieval source and model
 First, you need to download alpaca-cleaned, python_code_instructions_18k_alpaca, and gsm8k from [sam_data](https://drive.google.com/file/d/1N7FARwsGQXIbL_3B2uEYh3CkDh4Bc6it/view) and place them in the 'datastore/sam_data' directory. Then, execute the following command:
