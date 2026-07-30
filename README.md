@@ -8,14 +8,14 @@
 
 
 
-## Prepare retrieval source
+## Prepare retrieval source and model
 First, you need to download alpaca-cleaned, python_code_instructions_18k_alpaca, and gsm8k from [sam_data](https://drive.google.com/file/d/1N7FARwsGQXIbL_3B2uEYh3CkDh4Bc6it/view) and place them in the 'datastore/sam_data' directory. Then, execute the following command:
 ```bash
 cd datastore
 sh question_to_model_answer.sh
 sh build_sam.sh
 ```
-
+You need to download the model from the Vicuna-7b-v1.5 repository and place it in the root directory of your project.
 
 ## Inference
 
